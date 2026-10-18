@@ -1,5 +1,5 @@
-# doom-translation-fix
-Fix hardcoded translations in Doom + Doom II
+# Doom Community fixes
+Fix hardcoded translations and wrong glyphs in Doom + Doom II
 
 ## Installation
 1. Download the fixed translations from [here](https://github.com/helpme970/doom-translation-fix/releases/download/1.3/Common.kpf)
