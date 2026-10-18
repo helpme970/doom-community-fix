@@ -18,7 +18,7 @@ for i in translations:
 # produce stuff that is replaced #
 ##################################
 orig =      ['"Change Binding"', '"Clear"', 'function s(){engine.on("InputCaptured",i),kex.CaptureNextInput(),t(!0),osiris.StartSound(t6.pistol)}', 'engine.on("MenuOpenButtonPressed",e=>rk("useGamepadHints",!e))']
-replacement =   ['t("change_binding")', 't("clear")', 't=ir();function s(){engine.on("InputCaptured",i),kex.CaptureNextInput(),t(!0),osiris.StartSound(t6.pistol)}', 'engine.on("MenuOpenButtonPressed",e => {if(kex.GetGamepadType(0)=="unknown"||e == 0)a = 0;else a=1;rk("useGamepadHints", a);})']
+replacement =   ['t("change_binding")', 't("clear")', 't=ir();function s(){engine.on("InputCaptured",i),kex.CaptureNextInput(),t(!0),osiris.StartSound(t6.pistol)}', 'engine.on("MenuOpenButtonPressed",e => {if(kex.GetGamepadType(0)=="unknown"||e == 0)e = 0;else e=1;rk("useGamepadHints", e);})']
 # alt: 'engine.on("MenuOpenButtonPressed",e => {if (kex.GetGamepadType(0)=="unknown"||e == 0)a = 0;else a=1;rk("useGamepadHints", a);})'
 # "keyboard" !== e.source
 # "gamepad" == e.source
