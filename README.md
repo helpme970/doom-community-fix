@@ -20,12 +20,12 @@ Fix hardcoded translations and wrong glyphs in Doom + Doom II
 |-----------------------|-----------------------------------------------------------------|
 | index original.js     | original unmodified version                                     |
 | index deobfuscated.js | `index original.js` deobfuscated, see JS Tools for the used tool|
-| index fixed.js        | original file with the translation fix                          |
+| index fixed.js        | original file with the fixes                                    |
 | owncode.js            | the code for the fix, that is applied to `index original.js` (deprecated)    |
 | doom.py               | Python program to patch the index.js                            |
 
 ### JS Tools
-index.js taken from <path-to-game>/Common.kpf/menu/
+index.js taken from `<path-to-game>/Common.kpf/menu/`
 
 Tools used:
 | Tool                    | Link                                     |
@@ -34,7 +34,7 @@ Tools used:
 | Javascript compressor   | https://jscompressor.treblereel.dev/     |
 
 ### KPF
-"KEX program file" or "KEX Pack File"
+`KEX program file` or `KEX Pack File`
 
 Zip-File compressed with Deflate or just stored without compression
 
