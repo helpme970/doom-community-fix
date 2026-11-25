@@ -4,7 +4,8 @@ Fix hard coded translations and wrong glyphs in Doom + Doom II
 ## Features
 - smaller file size
 - fix hard coded buttons
-- fix wrong glyphs (e.g. controller glyphs even though you play with keyboard and mouse) 
+- fix wrong glyphs (e.g. controller glyphs even though you play with keyboard and mouse)
+- works with other mods 
 
 ## Installation
 1. Download the fixed translations from [here](https://github.com/helpme970/doom-translation-fix/releases/download/1.5/Common.kpf)
